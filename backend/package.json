@@ -1,0 +1,22 @@
+{
+  "name": "backend-catalogo",
+  "version": "1.0.0",
+  "description": "Backend en Node.js + Express para catálogo con recompensas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "dev:clean": "npm run kill-port && npm run dev",
+    "test": "jest",
+    "kill-port": "node scripts/kill-port.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.3"
+  }
+}

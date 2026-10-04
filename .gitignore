@@ -1,0 +1,16 @@
+# Dependencias de Node
+node_modules/
+
+# Builds
+/dist
+*/dist
+
+# Entornos y credenciales
+.env
+
+# Archivos del sistema
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
